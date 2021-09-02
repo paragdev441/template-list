@@ -436,6 +436,1014 @@ const Leads = () => {
                 <HiOutlineDotsVertical />
               </td>
             </tr>
+            <tr className="lead-row">
+              <th scope="row">
+                <div>
+                  <span className="drag-icon">
+                    <CgMenuGridO />
+                  </span>
+                  <input
+                    class="row-checkbox form-check-input"
+                    type="checkbox"
+                    id="checkboxNoLabel"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+              </th>
+              <td style={{ width: '40%' }}>
+                <div className="contact-block">
+                  <div>
+                    <img
+                      src="https://source.unsplash.com/random/30x30?sig=1"
+                      alt="avtar"
+                    />
+                    <div
+                      class="status-circle"
+                      style={{ backgroundColor: 'grey' }}
+                    ></div>
+                  </div>
+                  <div className="contact-label-block">
+                    <b>Contact 1</b>
+                    <div
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        fontSize: '11px',
+                      }}
+                    >
+                      <div>This is a very long contact me...</div>
+                      <div>5s ago</div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div
+                  className="status-table-block"
+                  style={{
+                    background: '#e6e6f2',
+                    color: '#5c5cfd',
+                  }}
+                >
+                  <div>
+                    <GoPrimitiveDot />
+                  </div>
+                  <div>
+                    Active
+                    <div />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div style={{ display: 'flex' }}>
+                  <div
+                    className="tag-table-block"
+                    style={{
+                      background: '#fcd66a',
+                      color: '#8b7f64',
+                    }}
+                  >
+                    <div>
+                      Lead
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    className="tag-table-block"
+                    style={{
+                      background: '#fddce0',
+                      color: '#8b7f64',
+                    }}
+                  >
+                    <div>
+                      DBC
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td style={{ display: 'flex' }}>
+                <img
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <button className="more-assigned-button">
+                  <b>+2</b>
+                </button>
+              </td>
+              <td>
+                <div className="sku-table-block">9177</div>
+              </td>
+              <td>
+                <b>This is a long description of this co...</b>
+              </td>
+              <td>
+                <HiOutlineDotsVertical />
+              </td>
+            </tr>
+            <tr className="lead-row">
+              <th scope="row">
+                <div>
+                  <span className="drag-icon">
+                    <CgMenuGridO />
+                  </span>
+                  <input
+                    class="row-checkbox form-check-input"
+                    type="checkbox"
+                    id="checkboxNoLabel"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+              </th>
+              <td style={{ width: '40%' }}>
+                <div className="contact-block">
+                  <div>
+                    <img
+                      src="https://source.unsplash.com/random/30x30?sig=1"
+                      alt="avtar"
+                    />
+                    <div
+                      class="status-circle"
+                      style={{ backgroundColor: '#00e676' }}
+                    ></div>
+                  </div>
+                  <div className="contact-label-block">
+                    <b>Contact 2</b>
+                    <div
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        fontSize: '11px',
+                      }}
+                    >
+                      <div>This is a very long contact me...</div>
+                      <div>Yesterday</div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div
+                  className="status-table-block"
+                  style={{
+                    background: '#e6e6f2',
+                    color: '#5c5cfd',
+                  }}
+                >
+                  <div>
+                    <GoPrimitiveDot />
+                  </div>
+                  <div>
+                    Active
+                    <div />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div style={{ display: 'flex' }}>
+                  <div
+                    className="tag-table-block"
+                    style={{
+                      background: '#9de3a3',
+                      color: '#8b7f64',
+                    }}
+                  >
+                    <div>
+                      Paid
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td style={{ display: 'flex' }}>
+                <img
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <button className="more-assigned-button">
+                  <b>+2</b>
+                </button>
+              </td>
+              <td>
+                <div className="sku-table-block">8453</div>
+              </td>
+              <td>
+                <b>This is a long description of this co...</b>
+              </td>
+              <td>
+                <HiOutlineDotsVertical />
+              </td>
+            </tr>
+            <tr className="lead-row">
+              <th scope="row">
+                <div>
+                  <span className="drag-icon">
+                    <CgMenuGridO />
+                  </span>
+                  <input
+                    class="row-checkbox form-check-input"
+                    type="checkbox"
+                    id="checkboxNoLabel"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+              </th>
+              <td style={{ width: '40%' }}>
+                <div className="contact-block">
+                  <div>
+                    <img
+                      src="https://source.unsplash.com/random/30x30?sig=1"
+                      alt="avtar"
+                    />
+                    <div
+                      class="status-circle"
+                      style={{ backgroundColor: 'grey' }}
+                    ></div>
+                  </div>
+                  <div className="contact-label-block">
+                    <b>Contact 3</b>
+                    <div
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        fontSize: '11px',
+                      }}
+                    >
+                      <div>This is a very long contact me...</div>
+                      <div>14/4/20</div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div
+                  className="status-table-block"
+                  style={{
+                    background: '#f2f0f9',
+                    color: '#818086',
+                  }}
+                >
+                  <div>
+                    <GoPrimitiveDot />
+                  </div>
+                  <div>
+                    Inactive
+                    <div />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div style={{ display: 'flex' }}>
+                  <div
+                    className="tag-table-block"
+                    style={{
+                      background: '#fddce0',
+                      color: '#8b7f64',
+                    }}
+                  >
+                    <div>
+                      DBC
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    className="tag-table-block"
+                    style={{
+                      background: '#9de3a3',
+                      color: '#8b7f64',
+                    }}
+                  >
+                    <div>
+                      Paid
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td style={{ display: 'flex' }}>
+                <img
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <button className="more-assigned-button">
+                  <b>+2</b>
+                </button>
+              </td>
+              <td>
+                <div className="sku-table-block">3093</div>
+              </td>
+              <td>
+                <b>This is a long description of this co...</b>
+              </td>
+              <td>
+                <HiOutlineDotsVertical />
+              </td>
+            </tr>
+            <tr className="lead-row">
+              <th scope="row">
+                <div>
+                  <span className="drag-icon">
+                    <CgMenuGridO />
+                  </span>
+                  <input
+                    class="row-checkbox form-check-input"
+                    type="checkbox"
+                    id="checkboxNoLabel"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+              </th>
+              <td style={{ width: '40%' }}>
+                <div className="contact-block">
+                  <div>
+                    <img
+                      src="https://source.unsplash.com/random/30x30?sig=1"
+                      alt="avtar"
+                    />
+                    <div
+                      class="status-circle"
+                      style={{ backgroundColor: 'grey' }}
+                    ></div>
+                  </div>
+                  <div className="contact-label-block">
+                    <b>Contact 1</b>
+                    <div
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        fontSize: '11px',
+                      }}
+                    >
+                      <div>This is a very long contact me...</div>
+                      <div>5s ago</div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div
+                  className="status-table-block"
+                  style={{
+                    background: '#e6e6f2',
+                    color: '#5c5cfd',
+                  }}
+                >
+                  <div>
+                    <GoPrimitiveDot />
+                  </div>
+                  <div>
+                    Active
+                    <div />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div style={{ display: 'flex' }}>
+                  <div
+                    className="tag-table-block"
+                    style={{
+                      background: '#fcd66a',
+                      color: '#8b7f64',
+                    }}
+                  >
+                    <div>
+                      Lead
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    className="tag-table-block"
+                    style={{
+                      background: '#fddce0',
+                      color: '#8b7f64',
+                    }}
+                  >
+                    <div>
+                      DBC
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td style={{ display: 'flex' }}>
+                <img
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <button className="more-assigned-button">
+                  <b>+2</b>
+                </button>
+              </td>
+              <td>
+                <div className="sku-table-block">9177</div>
+              </td>
+              <td>
+                <b>This is a long description of this co...</b>
+              </td>
+              <td>
+                <HiOutlineDotsVertical />
+              </td>
+            </tr>
+            <tr className="lead-row">
+              <th scope="row">
+                <div>
+                  <span className="drag-icon">
+                    <CgMenuGridO />
+                  </span>
+                  <input
+                    class="row-checkbox form-check-input"
+                    type="checkbox"
+                    id="checkboxNoLabel"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+              </th>
+              <td style={{ width: '40%' }}>
+                <div className="contact-block">
+                  <div>
+                    <img
+                      src="https://source.unsplash.com/random/30x30?sig=1"
+                      alt="avtar"
+                    />
+                    <div
+                      class="status-circle"
+                      style={{ backgroundColor: '#00e676' }}
+                    ></div>
+                  </div>
+                  <div className="contact-label-block">
+                    <b>Contact 2</b>
+                    <div
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        fontSize: '11px',
+                      }}
+                    >
+                      <div>This is a very long contact me...</div>
+                      <div>Yesterday</div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div
+                  className="status-table-block"
+                  style={{
+                    background: '#e6e6f2',
+                    color: '#5c5cfd',
+                  }}
+                >
+                  <div>
+                    <GoPrimitiveDot />
+                  </div>
+                  <div>
+                    Active
+                    <div />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div style={{ display: 'flex' }}>
+                  <div
+                    className="tag-table-block"
+                    style={{
+                      background: '#9de3a3',
+                      color: '#8b7f64',
+                    }}
+                  >
+                    <div>
+                      Paid
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td style={{ display: 'flex' }}>
+                <img
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <button className="more-assigned-button">
+                  <b>+2</b>
+                </button>
+              </td>
+              <td>
+                <div className="sku-table-block">8453</div>
+              </td>
+              <td>
+                <b>This is a long description of this co...</b>
+              </td>
+              <td>
+                <HiOutlineDotsVertical />
+              </td>
+            </tr>
+            <tr className="lead-row">
+              <th scope="row">
+                <div>
+                  <span className="drag-icon">
+                    <CgMenuGridO />
+                  </span>
+                  <input
+                    class="row-checkbox form-check-input"
+                    type="checkbox"
+                    id="checkboxNoLabel"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+              </th>
+              <td style={{ width: '40%' }}>
+                <div className="contact-block">
+                  <div>
+                    <img
+                      src="https://source.unsplash.com/random/30x30?sig=1"
+                      alt="avtar"
+                    />
+                    <div
+                      class="status-circle"
+                      style={{ backgroundColor: 'grey' }}
+                    ></div>
+                  </div>
+                  <div className="contact-label-block">
+                    <b>Contact 3</b>
+                    <div
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        fontSize: '11px',
+                      }}
+                    >
+                      <div>This is a very long contact me...</div>
+                      <div>14/4/20</div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div
+                  className="status-table-block"
+                  style={{
+                    background: '#f2f0f9',
+                    color: '#818086',
+                  }}
+                >
+                  <div>
+                    <GoPrimitiveDot />
+                  </div>
+                  <div>
+                    Inactive
+                    <div />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div style={{ display: 'flex' }}>
+                  <div
+                    className="tag-table-block"
+                    style={{
+                      background: '#fddce0',
+                      color: '#8b7f64',
+                    }}
+                  >
+                    <div>
+                      DBC
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    className="tag-table-block"
+                    style={{
+                      background: '#9de3a3',
+                      color: '#8b7f64',
+                    }}
+                  >
+                    <div>
+                      Paid
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td style={{ display: 'flex' }}>
+                <img
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <button className="more-assigned-button">
+                  <b>+2</b>
+                </button>
+              </td>
+              <td>
+                <div className="sku-table-block">3093</div>
+              </td>
+              <td>
+                <b>This is a long description of this co...</b>
+              </td>
+              <td>
+                <HiOutlineDotsVertical />
+              </td>
+            </tr>
+            <tr className="lead-row">
+              <th scope="row">
+                <div>
+                  <span className="drag-icon">
+                    <CgMenuGridO />
+                  </span>
+                  <input
+                    class="row-checkbox form-check-input"
+                    type="checkbox"
+                    id="checkboxNoLabel"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+              </th>
+              <td style={{ width: '40%' }}>
+                <div className="contact-block">
+                  <div>
+                    <img
+                      src="https://source.unsplash.com/random/30x30?sig=1"
+                      alt="avtar"
+                    />
+                    <div
+                      class="status-circle"
+                      style={{ backgroundColor: 'grey' }}
+                    ></div>
+                  </div>
+                  <div className="contact-label-block">
+                    <b>Contact 1</b>
+                    <div
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        fontSize: '11px',
+                      }}
+                    >
+                      <div>This is a very long contact me...</div>
+                      <div>5s ago</div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div
+                  className="status-table-block"
+                  style={{
+                    background: '#e6e6f2',
+                    color: '#5c5cfd',
+                  }}
+                >
+                  <div>
+                    <GoPrimitiveDot />
+                  </div>
+                  <div>
+                    Active
+                    <div />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div style={{ display: 'flex' }}>
+                  <div
+                    className="tag-table-block"
+                    style={{
+                      background: '#fcd66a',
+                      color: '#8b7f64',
+                    }}
+                  >
+                    <div>
+                      Lead
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    className="tag-table-block"
+                    style={{
+                      background: '#fddce0',
+                      color: '#8b7f64',
+                    }}
+                  >
+                    <div>
+                      DBC
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td style={{ display: 'flex' }}>
+                <img
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <button className="more-assigned-button">
+                  <b>+2</b>
+                </button>
+              </td>
+              <td>
+                <div className="sku-table-block">9177</div>
+              </td>
+              <td>
+                <b>This is a long description of this co...</b>
+              </td>
+              <td>
+                <HiOutlineDotsVertical />
+              </td>
+            </tr>
+            <tr className="lead-row">
+              <th scope="row">
+                <div>
+                  <span className="drag-icon">
+                    <CgMenuGridO />
+                  </span>
+                  <input
+                    class="row-checkbox form-check-input"
+                    type="checkbox"
+                    id="checkboxNoLabel"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+              </th>
+              <td style={{ width: '40%' }}>
+                <div className="contact-block">
+                  <div>
+                    <img
+                      src="https://source.unsplash.com/random/30x30?sig=1"
+                      alt="avtar"
+                    />
+                    <div
+                      class="status-circle"
+                      style={{ backgroundColor: '#00e676' }}
+                    ></div>
+                  </div>
+                  <div className="contact-label-block">
+                    <b>Contact 2</b>
+                    <div
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        fontSize: '11px',
+                      }}
+                    >
+                      <div>This is a very long contact me...</div>
+                      <div>Yesterday</div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div
+                  className="status-table-block"
+                  style={{
+                    background: '#e6e6f2',
+                    color: '#5c5cfd',
+                  }}
+                >
+                  <div>
+                    <GoPrimitiveDot />
+                  </div>
+                  <div>
+                    Active
+                    <div />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div style={{ display: 'flex' }}>
+                  <div
+                    className="tag-table-block"
+                    style={{
+                      background: '#9de3a3',
+                      color: '#8b7f64',
+                    }}
+                  >
+                    <div>
+                      Paid
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td style={{ display: 'flex' }}>
+                <img
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <button className="more-assigned-button">
+                  <b>+2</b>
+                </button>
+              </td>
+              <td>
+                <div className="sku-table-block">8453</div>
+              </td>
+              <td>
+                <b>This is a long description of this co...</b>
+              </td>
+              <td>
+                <HiOutlineDotsVertical />
+              </td>
+            </tr>
+            <tr className="lead-row">
+              <th scope="row">
+                <div>
+                  <span className="drag-icon">
+                    <CgMenuGridO />
+                  </span>
+                  <input
+                    class="row-checkbox form-check-input"
+                    type="checkbox"
+                    id="checkboxNoLabel"
+                    value=""
+                    aria-label="..."
+                  />
+                </div>
+              </th>
+              <td style={{ width: '40%' }}>
+                <div className="contact-block">
+                  <div>
+                    <img
+                      src="https://source.unsplash.com/random/30x30?sig=1"
+                      alt="avtar"
+                    />
+                    <div
+                      class="status-circle"
+                      style={{ backgroundColor: 'grey' }}
+                    ></div>
+                  </div>
+                  <div className="contact-label-block">
+                    <b>Contact 3</b>
+                    <div
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        fontSize: '11px',
+                      }}
+                    >
+                      <div>This is a very long contact me...</div>
+                      <div>14/4/20</div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div
+                  className="status-table-block"
+                  style={{
+                    background: '#f2f0f9',
+                    color: '#818086',
+                  }}
+                >
+                  <div>
+                    <GoPrimitiveDot />
+                  </div>
+                  <div>
+                    Inactive
+                    <div />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div style={{ display: 'flex' }}>
+                  <div
+                    className="tag-table-block"
+                    style={{
+                      background: '#fddce0',
+                      color: '#8b7f64',
+                    }}
+                  >
+                    <div>
+                      DBC
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    className="tag-table-block"
+                    style={{
+                      background: '#9de3a3',
+                      color: '#8b7f64',
+                    }}
+                  >
+                    <div>
+                      Paid
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td style={{ display: 'flex' }}>
+                <img
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <img
+                  style={{ marginLeft: '-10px' }}
+                  src="https://source.unsplash.com/random/30x30?sig=1"
+                  alt="avtar"
+                />
+                <button className="more-assigned-button">
+                  <b>+2</b>
+                </button>
+              </td>
+              <td>
+                <div className="sku-table-block">3093</div>
+              </td>
+              <td>
+                <b>This is a long description of this co...</b>
+              </td>
+              <td>
+                <HiOutlineDotsVertical />
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>

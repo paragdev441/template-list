@@ -1,38 +1,132 @@
 .App {
-  text-align: center;
+  margin-left: 4px;
+  color: #383838 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.leads-table-block {
+  margin: 10px auto;
+  border: 1px solid #969696;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row-checkbox {
+  margin-left: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.drag-icon {
+  display: none;
+  margin-left: -16px;
+  cursor: grab;
+}
+
+.lead-row:hover .drag-icon {
+  display: inline;
+}
+
+.lead-row:hover {
+  background: #f9f9f9;
+}
+
+.contact-block {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: start;
+  margin-bottom: -15px;
+}
+
+.contact-label-block {
+  line-height: 15px;
+  margin-left: 15px;
+  width: 70%;
+}
+
+.status-circle {
+  width: 16px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: grey;
+  border: 2px solid white;
+  bottom: 15px;
+  right: -20px;
+  position: relative;
+}
+
+.status-table-block {
+  display: flex;
+  width: 100px;
+  place-content: center;
+  font-weight: 600;
+  padding: 4px;
+  border-radius: 23px;
+}
+
+.tag-table-block {
+  display: flex;
+  width: 70px;
+  place-content: center;
+  font-weight: 600;
+  padding: 4px;
+  border-radius: 23px;
+}
+
+.more-assigned-button {
+  background: silver;
+  padding: 1px 3px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin-left: -16px;
+}
+
+.sku-table-block {
+  border: 1px solid grey;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.kanban-options-block {
+  /* width: 238rem; */
+  padding: 0px 12px;
+  border-top: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  font-size: initial;
+}
+
+.kanban-option-nav-item {
+  padding: 10px 15px;
+}
+
+.kanban-option-nav-item:hover {
+  color: rgb(74, 74, 255);
+  border-bottom: 2px solid rgb(74, 74, 255);
+  cursor: default;
+  padding: 10px 15px;
+}
+
+.kanban-option-nav-item-active {
+  padding: 10px 15px;
+  color: rgb(74, 74, 255);
+  border-bottom: 2px solid rgb(74, 74, 255);
+  cursor: default;
+}
+
+.wallpaers-header {
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+  margin-left: 20px;
+}
+
+.save-view-btn {
+  border-radius: 5px;
+  background: #0152cc;
   color: white;
+  border: 0;
+  padding: 3px 11px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.save-view-option-btn {
+  padding: 5px;
+  border: 6px black;
+  background: #e6dfdf;
+  margin-left: 5px;
 }

@@ -5,12 +5,12 @@
 
 /**************************    Navbar    **************************/
 .nav-bar {
-  width: 300px;
+  width: 250px;
   background: white;
   border-right: 1px solid silver;
   /* height: 100vh; */
   /**/
-  flex-grow: 7;
+  /* flex-grow: 7; */
 }
 
 .nav-body {

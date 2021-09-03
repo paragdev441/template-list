@@ -70,7 +70,7 @@ const Leads = () => {
       </div>
       <div style={{ padding: '2px', backgroundColor: '#f0f0f0' }}>
         <div
-          style={{ width: '90%', backgroundColor: 'white' }}
+          style={{ width: '90%', backgroundColor: 'white', marginLeft: '20px' }}
           class="leads-table-block table-responsive"
         >
           <table className="table">
@@ -87,13 +87,19 @@ const Leads = () => {
                     />
                   </div>
                 </th>
-                <th scope="col">Contact</th>
+                <th style={{ width: '30em' }} scope="col">
+                  Contact
+                </th>
                 <th scope="col">User Status</th>
                 <th scope="col">Tags</th>
                 <th scope="col">Assigned To</th>
                 <th scope="col"></th>
                 <th scope="col">SKU</th>
                 <th scope="col">Description</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
                 <th scope="col">
                   <FiPlusSquare />
                 </th>
@@ -129,14 +135,8 @@ const Leads = () => {
                     </div>
                     <div className="contact-label-block">
                       <b>Contact 1</b>
-                      <div
-                        style={{
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          fontSize: '11px',
-                        }}
-                      >
-                        <div>This is a very long contact me...</div>
+                      <div className="contact-details">
+                        <div>This messsage is fo...</div>
                         <div>5s ago</div>
                       </div>
                     </div>
@@ -209,8 +209,8 @@ const Leads = () => {
                 <td>
                   <div className="sku-table-block">9177</div>
                 </td>
-                <td>
-                  <b>This is a long description of this co...</b>
+                <td colspan="5">
+                  <div>This is a long descr...</div>
                 </td>
                 <td>
                   <HiOutlineDotsVertical />
@@ -245,14 +245,8 @@ const Leads = () => {
                     </div>
                     <div className="contact-label-block">
                       <b>Contact 2</b>
-                      <div
-                        style={{
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          fontSize: '11px',
-                        }}
-                      >
-                        <div>This is a very long contact me...</div>
+                      <div className="contact-details">
+                        <div>This messsage is fo...</div>
                         <div>Yesterday</div>
                       </div>
                     </div>
@@ -313,8 +307,8 @@ const Leads = () => {
                 <td>
                   <div className="sku-table-block">8453</div>
                 </td>
-                <td>
-                  <b>This is a long description of this co...</b>
+                <td colspan="5">
+                  <div>This is a long descr...</div>
                 </td>
                 <td>
                   <HiOutlineDotsVertical />
@@ -349,14 +343,8 @@ const Leads = () => {
                     </div>
                     <div className="contact-label-block">
                       <b>Contact 3</b>
-                      <div
-                        style={{
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          fontSize: '11px',
-                        }}
-                      >
-                        <div>This is a very long contact me...</div>
+                      <div className="contact-details">
+                        <div>This messsage is fo...</div>
                         <div>14/4/20</div>
                       </div>
                     </div>
@@ -429,8 +417,8 @@ const Leads = () => {
                 <td>
                   <div className="sku-table-block">3093</div>
                 </td>
-                <td>
-                  <b>This is a long description of this co...</b>
+                <td colspan="5">
+                  <div>This is a long descr...</div>
                 </td>
                 <td>
                   <HiOutlineDotsVertical />
@@ -465,14 +453,8 @@ const Leads = () => {
                     </div>
                     <div className="contact-label-block">
                       <b>Contact 1</b>
-                      <div
-                        style={{
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          fontSize: '11px',
-                        }}
-                      >
-                        <div>This is a very long contact me...</div>
+                      <div className="contact-details">
+                        <div>This messsage is fo...</div>
                         <div>5s ago</div>
                       </div>
                     </div>
@@ -545,8 +527,8 @@ const Leads = () => {
                 <td>
                   <div className="sku-table-block">9177</div>
                 </td>
-                <td>
-                  <b>This is a long description of this co...</b>
+                <td colspan="5">
+                  <div>This is a long descr...</div>
                 </td>
                 <td>
                   <HiOutlineDotsVertical />
@@ -581,14 +563,8 @@ const Leads = () => {
                     </div>
                     <div className="contact-label-block">
                       <b>Contact 2</b>
-                      <div
-                        style={{
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          fontSize: '11px',
-                        }}
-                      >
-                        <div>This is a very long contact me...</div>
+                      <div className="contact-details">
+                        <div>This messsage is fo...</div>
                         <div>Yesterday</div>
                       </div>
                     </div>
@@ -649,8 +625,8 @@ const Leads = () => {
                 <td>
                   <div className="sku-table-block">8453</div>
                 </td>
-                <td>
-                  <b>This is a long description of this co...</b>
+                <td colspan="5">
+                  <div>This is a long descr...</div>
                 </td>
                 <td>
                   <HiOutlineDotsVertical />
@@ -685,14 +661,8 @@ const Leads = () => {
                     </div>
                     <div className="contact-label-block">
                       <b>Contact 3</b>
-                      <div
-                        style={{
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          fontSize: '11px',
-                        }}
-                      >
-                        <div>This is a very long contact me...</div>
+                      <div className="contact-details">
+                        <div>This messsage is fo...</div>
                         <div>14/4/20</div>
                       </div>
                     </div>
@@ -765,8 +735,8 @@ const Leads = () => {
                 <td>
                   <div className="sku-table-block">3093</div>
                 </td>
-                <td>
-                  <b>This is a long description of this co...</b>
+                <td colspan="5">
+                  <div>This is a long descr...</div>
                 </td>
                 <td>
                   <HiOutlineDotsVertical />
@@ -801,14 +771,8 @@ const Leads = () => {
                     </div>
                     <div className="contact-label-block">
                       <b>Contact 1</b>
-                      <div
-                        style={{
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          fontSize: '11px',
-                        }}
-                      >
-                        <div>This is a very long contact me...</div>
+                      <div className="contact-details">
+                        <div>This messsage is fo...</div>
                         <div>5s ago</div>
                       </div>
                     </div>
@@ -881,8 +845,8 @@ const Leads = () => {
                 <td>
                   <div className="sku-table-block">9177</div>
                 </td>
-                <td>
-                  <b>This is a long description of this co...</b>
+                <td colspan="5">
+                  <div>This is a long descr...</div>
                 </td>
                 <td>
                   <HiOutlineDotsVertical />
@@ -917,14 +881,8 @@ const Leads = () => {
                     </div>
                     <div className="contact-label-block">
                       <b>Contact 2</b>
-                      <div
-                        style={{
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          fontSize: '11px',
-                        }}
-                      >
-                        <div>This is a very long contact me...</div>
+                      <div className="contact-details">
+                        <div>This messsage is fo...</div>
                         <div>Yesterday</div>
                       </div>
                     </div>
@@ -985,8 +943,8 @@ const Leads = () => {
                 <td>
                   <div className="sku-table-block">8453</div>
                 </td>
-                <td>
-                  <b>This is a long description of this co...</b>
+                <td colspan="5">
+                  <div>This is a long descr...</div>
                 </td>
                 <td>
                   <HiOutlineDotsVertical />
@@ -1021,14 +979,8 @@ const Leads = () => {
                     </div>
                     <div className="contact-label-block">
                       <b>Contact 3</b>
-                      <div
-                        style={{
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          fontSize: '11px',
-                        }}
-                      >
-                        <div>This is a very long contact me...</div>
+                      <div className="contact-details">
+                        <div>This messsage is fo...</div>
                         <div>14/4/20</div>
                       </div>
                     </div>
@@ -1101,8 +1053,8 @@ const Leads = () => {
                 <td>
                   <div className="sku-table-block">3093</div>
                 </td>
-                <td>
-                  <b>This is a long description of this co...</b>
+                <td colspan="5">
+                  <div>This is a long descr...</div>
                 </td>
                 <td>
                   <HiOutlineDotsVertical />
@@ -1137,14 +1089,8 @@ const Leads = () => {
                     </div>
                     <div className="contact-label-block">
                       <b>Contact 1</b>
-                      <div
-                        style={{
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          fontSize: '11px',
-                        }}
-                      >
-                        <div>This is a very long contact me...</div>
+                      <div className="contact-details">
+                        <div>This messsage is fo...</div>
                         <div>5s ago</div>
                       </div>
                     </div>
@@ -1217,8 +1163,8 @@ const Leads = () => {
                 <td>
                   <div className="sku-table-block">9177</div>
                 </td>
-                <td>
-                  <b>This is a long description of this co...</b>
+                <td colspan="5">
+                  <div>This is a long descr...</div>
                 </td>
                 <td>
                   <HiOutlineDotsVertical />
@@ -1253,14 +1199,8 @@ const Leads = () => {
                     </div>
                     <div className="contact-label-block">
                       <b>Contact 2</b>
-                      <div
-                        style={{
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          fontSize: '11px',
-                        }}
-                      >
-                        <div>This is a very long contact me...</div>
+                      <div className="contact-details">
+                        <div>This messsage is fo...</div>
                         <div>Yesterday</div>
                       </div>
                     </div>
@@ -1321,8 +1261,8 @@ const Leads = () => {
                 <td>
                   <div className="sku-table-block">8453</div>
                 </td>
-                <td>
-                  <b>This is a long description of this co...</b>
+                <td colspan="5">
+                  <div>This is a long descr...</div>
                 </td>
                 <td>
                   <HiOutlineDotsVertical />
@@ -1357,14 +1297,8 @@ const Leads = () => {
                     </div>
                     <div className="contact-label-block">
                       <b>Contact 3</b>
-                      <div
-                        style={{
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          fontSize: '11px',
-                        }}
-                      >
-                        <div>This is a very long contact me...</div>
+                      <div className="contact-details">
+                        <div>This messsage is fo...</div>
                         <div>14/4/20</div>
                       </div>
                     </div>
@@ -1437,8 +1371,8 @@ const Leads = () => {
                 <td>
                   <div className="sku-table-block">3093</div>
                 </td>
-                <td>
-                  <b>This is a long description of this co...</b>
+                <td colspan="5">
+                  <div>This is a long descr...</div>
                 </td>
                 <td>
                   <HiOutlineDotsVertical />

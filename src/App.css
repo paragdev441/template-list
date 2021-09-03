@@ -5,7 +5,7 @@
 
 /**************************    Navbar    **************************/
 .nav-bar {
-  width: 250px;
+  width: 300px;
   background: white;
   border-right: 1px solid silver;
   /* height: 100vh; */
@@ -201,7 +201,14 @@
   border-top: 1px solid black;
   border: 1px solid rgba(0, 0, 0, 0.15);
   font-weight: 500;
-  font-size: initial;
+  /* font-size: initial; */
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  padding-bottom: 15px;
 }
 
 .kanban-option-nav-item {
